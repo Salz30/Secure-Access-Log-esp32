@@ -18,9 +18,9 @@ Proyek ini dibangun untuk memenuhi spesifikasi teknis tingkat lanjut, termasuk p
 *   **Protokol:** HTTP POST / REST API.
 
 ## 👥 Anggota Kelompok
-1. [Salman Azhar Latisio] - *Hardware & Firmware Engineer (sementara)*
-2. [Irham Irawan] - *Network & Security Engineer (sementara)*
-3. [Arika Azhar] - *Frontend & AI Developer (sementara)*
+1. [Salman Azhar Latisio] - *Hardware & wiring alat-alat.*
+2. [Irham Irawan] - *Coding & setup arduino*
+3. [Arika Azhar] - *Frontend & Backend*
 
 ---
-*Proyek ini dikembangkan sebagai Tugas Akhir Semester untuk mata kuliah Sistem Mikrokontroler.*
+*Proyek ini dikembangkan sebagai Tugas Akhir (UAS) untuk mata kuliah Sistem Mikrokontroler.*
