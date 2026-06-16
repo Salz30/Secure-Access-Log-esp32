@@ -24,3 +24,26 @@ Proyek ini dibangun untuk memenuhi spesifikasi teknis tingkat lanjut, termasuk p
 
 ---
 *Proyek ini dikembangkan sebagai Tugas Akhir (UAS) untuk mata kuliah Sistem Mikrokontroler.*
+
+---
+## 📈 Alur Progres Pengerjaan Tugas Akhir
+
+Berikut adalah *timeline* dan pembagian tugas selama pengembangan proyek Secure Access Log System:
+### Fase 1: Perencanaan & Persiapan (Selesai)
+- [x] Diskusi ide dan penentuan spesifikasi proyek.
+- [x] Pembelian komponen *hardware* (ESP32, RC522, LED, Jumper).
+- [x] Pembagian tugas (*Hardware*, *Firmware*, *Web/Backend*).
+### Dokumentasi:
+<img width="560" height="360" alt="Belanja sensor" src="https://github.com/user-attachments/assets/a8238107-7c0f-4c6c-9ec7-76c5e9ff87e1" />
+<img width="590" height="400" alt="kabel jumper" src="https://github.com/user-attachments/assets/220f1a13-6c9a-49e8-a6a3-b2089a85bd2f" />
+
+---
+### Fase 2: Perakitan Perangkat Keras (PIC: Salman) (Selesai)
+- [x] *Wiring* sensor RFID RC522 ke pin SPI ESP32.
+- [x] Pemasangan sirkuit indikator LED.
+- [x] Pengujian konektivitas daya dan *troubleshooting hardware* (mengatasi *brownout/restart*).
+### Dokumentasi:
+<img width="590" height="410" alt="image" src="https://github.com/user-attachments/assets/b6c2c095-d006-445c-99cc-e0936d65d74a" />
+<img width="590" height="410" alt="image" src="https://github.com/user-attachments/assets/8c2fcffc-ae92-4468-ab3a-394e0e3d04d7" />
+
+
