@@ -46,4 +46,36 @@ Berikut adalah *timeline* dan pembagian tugas selama pengembangan proyek Secure 
 <img width="590" height="410" alt="image" src="https://github.com/user-attachments/assets/b6c2c095-d006-445c-99cc-e0936d65d74a" />
 <img width="590" height="410" alt="image" src="https://github.com/user-attachments/assets/8c2fcffc-ae92-4468-ab3a-394e0e3d04d7" />
 
+### Fase 3: Pemrograman Firmware & RTOS (PIC: Irham)
+- [x] Inisialisasi pembacaan UID dari sensor RFID.
+- [x] Implementasi **FreeRTOS** (pemisahan *task* pembacaan sensor dan transmisi HTTP).
+- [x] Penulisan algoritma enkripsi XOR pada data yang akan dikirim.
+- [x] Setup koneksi WiFi dan mekanisme *Auto-Reconnect*.
+### Dokumentasi:
+<img width="1134" height="1004" alt="Screenshot 2026-06-22 190750" src="https://github.com/user-attachments/assets/651121e1-8d16-4aa9-93ee-6d93ef8e8158" />
+<img width="1115" height="994" alt="Screenshot 2026-06-22 190804" src="https://github.com/user-attachments/assets/6873e001-bf78-41fe-8cb1-e431edd363ed" />
+
+### Fase 4: Pengembangan Web & Database (PIC: Arika)
+- [x] Desain arsitektur *database* MySQL (Tabel `access_logs` dan `registered_cards`).
+- [x] Pembuatan koneksi PDO PHP yang aman dari *SQL Injection*.
+- [x] Pembuatan *endpoint* API (`api/access.php`) untuk menerima data dari ESP32.
+- [x] Desain dan implementasi UI *Dashboard* pemantauan akses.
+- [x] Pembuatan fitur manajemen kartu (*Add User* & *Toggle Access*).
+### Dokumentasi:
+<img width="1024" height="360" alt="Screenshot 2026-06-22 191247" src="https://github.com/user-attachments/assets/f5e5af2c-fac4-4750-b7c1-363d51d3cac3" />
+<img width="1637" height="633" alt="Screenshot 2026-06-22 191201" src="https://github.com/user-attachments/assets/32683f1f-ba68-46c6-9194-25c18927da38" />
+<img width="1286" height="964" alt="image" src="https://github.com/user-attachments/assets/84a84501-fc2f-4650-94e4-19895c298448" />
+<img width="709" height="409" alt="image" src="https://github.com/user-attachments/assets/260d499c-a026-4eb0-93f9-6aed0ab9c51c" />
+
+### Fase 5: Pengujian Sistem Terintegrasi
+- [x] Uji coba kartu yang terdaftar (Akses Diterima & LED Hijau).
+- [x] Uji coba kartu yang tidak terdaftar (Akses Ditolak & LED Merah).
+- [x] Uji coba pemblokiran kartu melalui *dashboard* secara *real-time*.
+### Dokumentasi:
+https://github.com/user-attachments/assets/9cef2165-20d0-40ed-8dff-8fb5db186b6d
+
+
+
+
+
 
