@@ -1,7 +1,7 @@
 # 🔐 Secure Access Log System (IoT)
 
 ## 📖 Deskripsi Singkat
-Proyek ini adalah sistem pencatatan akses pintar berbasis Internet of Things (IoT) yang dirancang untuk mensimulasikan sistem keamanan pintu modern. Menggunakan mikrokontroler **ESP32 D1 R32** dan sensor **RFID RC522**, sistem ini membaca identitas kartu fisik dan mencatat aktivitas akses ke dalam *database* secara *real-time*.
+Proyek ini adalah sistem pencatatan akses pintar berbasis Internet of Things (IoT) yang dirancang untuk mensimulasikan sistem Absensi yang aman. Menggunakan mikrokontroler **ESP32 D1 R32** dan sensor **RFID RC522**, sistem ini membaca identitas kartu fisik dan mencatat aktivitas akses ke dalam *database* secara *real-time*.
 
 Proyek ini dibangun untuk memenuhi spesifikasi teknis tingkat lanjut, termasuk penerapan **FreeRTOS** untuk efisiensi *multitasking* perangkat keras, serta implementasi **Keamanan Jaringan** (Enkripsi/Dekripsi) untuk melindungi integritas data log saat ditransmisikan melalui protokol HTTP.
 
