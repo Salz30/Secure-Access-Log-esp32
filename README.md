@@ -17,6 +17,26 @@ Proyek ini dibangun untuk memenuhi spesifikasi teknis tingkat lanjut, termasuk p
 *   **Frontend (UI/UX):** Web.
 *   **Protokol:** HTTP POST / REST API.
 
+## 🔌 Panduan Wiring (Pinout)
+
+### 1. Wiring Sensor RFID RC522 ke ESP32 D1 R32
+| Pin RC522 | Pin ESP32 (D1 R32) | Keterangan |
+| :--- | :--- | :--- |
+| **SDA (SS)** | IO05 (5) | Pin *Chip Select* untuk komunikasi SPI |
+| **SCK** | IO18 (18) | Pin sinkronisasi (*Clock*) |
+| **MOSI** | IO23 (23) | Pin kirim data (*Master Out Slave In*) |
+| **MISO** | IO19 (19) | Pin terima data (*Master In Slave Out*) |
+| **RST** | IO13 (13) | Pin untuk me-reset modul pembaca |
+| **IRQ** | (Tidak Dihubungkan) | Tidak perlu dipasang kabel |
+| **GND** | GND | *Ground* / Kutub Negatif |
+| **3.3V** | 3V3 | *Power* / Kutub Positif (**Wajib 3.3 Volt**) |
+
+### 2. Wiring Indikator LED
+| Komponen | Jalur Sambungan (Wiring) |
+| :--- | :--- |
+| **LED Hijau (Diterima)** | • Lubang **IO14** ESP32 ➔ Resistor ➔ Kaki Panjang LED Hijau.<br>• Kaki Pendek LED Hijau ➔ Lubang **GND** ESP32. |
+| **LED Merah (Ditolak)** | • Lubang **IO27** ESP32 ➔ Resistor ➔ Kaki Panjang LED Merah.<br>• Kaki Pendek LED Merah ➔ Lubang **GND** ESP32. |
+
 ## 👥 Anggota Kelompok
 1. [Salman Azhar Latisio] - *Hardware & wiring alat-alat.*
 2. [Irham Irawan] - *Coding & setup arduino*
